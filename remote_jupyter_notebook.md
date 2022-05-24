@@ -1,11 +1,15 @@
 <link rel="stylesheet" href="style.css">
 
-<div align="center">
-    Blabla
-</div>
-
-<div class="green">
-    Markdown css styles
+<div class="console draggable">
+  <div class="menubar">
+    <div class="close button"></div>
+    <div class="max button"></div>
+    <div class="min button"></div>
+    <div class="task">~/user/bin/run code</div>
+  </div>
+  <div class="body">
+    <span style="color:green">user</span>:<span style="color:blue">~</span>$ _
+  </div>
 </div>
 
 # Running a Jupyter notebook from a remote server
