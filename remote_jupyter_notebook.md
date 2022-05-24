@@ -1,13 +1,14 @@
----
-title: "Main"
-author: "T.TABURET"
-date: "24/05/2022"
-output: 
-  html_document:
-     css: style.css
-     self_contained: no
+<style>
+.green {
+    color: green;
+    font-weight:700;
+    font-size: 30px;
+}
+</style>
 
----
+<div class="green">
+    Markdown css styles
+</div>
 
 # Running a Jupyter notebook from a remote server
 
