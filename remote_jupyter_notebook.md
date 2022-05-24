@@ -1,10 +1,4 @@
-<style>
-.green {
-    color: green;
-    font-weight:700;
-    font-size: 30px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 <div align="center">
     Blabla
