@@ -1,83 +1,13 @@
-<style>
-  body{
-  /*   background-color: blue; */
-    background: linear-gradient(to bottom right, red, yellow);
-    background-size: 100% 200%;
-    background-repeat: no-repeat;
-    user-select: none;
-    overflow: hidden;
-  }
+---
+title: "Main"
+author: "T.TABURET"
+date: "24/05/2022"
+output: 
+  html_document:
+     css: style.css
+     self_contained: no
 
-  .console{
-    background-color: rgb(51,51,51);
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: calc(50vh - 150px);
-  }
-
-  .menubar{
-    height:20px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px 10px 0px 0px;
-    padding-top: 1px;
-  }
-
-  .console:hover{
-    cursor: default;
-  }
-
-  .task{
-    display: inline-block;
-    margin-left: 116px;
-    font-family: verdana;
-    font-size: 13px;
-  }
-
-  .close{
-    background-color: #ea5c46;
-  }
-
-  .button{
-    width: 11px;
-    height: 11px;
-    border-radius: 100%;
-    text-align: center;
-    margin-top: 4px;
-    margin-left: 2px;
-    display: inline-block;
-  /*   padding-top: 3px; */
-  }
-
-  .button:hover{
-    cursor: pointer;
-  }
-
-  .min {
-    background-color: #41f2e9;
-  }
-
-  .max {
-    background-color: #ede034;
-  }
-
-  /* .button > b{
-    margin-top: -3px;
-  } */
-
-  .button:first-of-type{
-    margin-left: 10px;
-  }
-
-  .body{
-    color: white;
-    font-family: verdana;
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-<\style>
+---
 
 # Running a Jupyter notebook from a remote server
 
@@ -143,17 +73,6 @@ To see these additional updates run: apt list --upgradable
 Last login: Mon Dec  6 13:56:32 2021 from X.X.X.X
 remoteuser@remotehost:~$
 ```
-<div class="console draggable">
-  <div class="menubar">
-    <div class="close button"></div>
-    <div class="max button"></div>
-    <div class="min button"></div>
-    <div class="task">~/user/bin/run code</div>
-  </div>
-  <div class="body">
-    <span style="color:green">user</span>:<span style="color:blue">~</span>$ _
-  </div>
-</div>
   
 Once the console shows, in type the following:
 ```shell-session
