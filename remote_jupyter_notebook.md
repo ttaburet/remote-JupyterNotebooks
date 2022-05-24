@@ -6,6 +6,10 @@
 }
 </style>
 
+<div align="center">
+    Blabla
+</div>
+
 <div class="green">
     Markdown css styles
 </div>
