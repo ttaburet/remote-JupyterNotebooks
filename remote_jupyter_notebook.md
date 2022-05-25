@@ -1,19 +1,6 @@
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
 
-<script>
-function highlightCode() {
-    var pres = document.querySelectorAll("pre>code");
-    for (var i = 0; i < pres.length; i++) {
-        hljs.highlightBlock(pres[i]);
-    }
-}
-highlightCode();
-</script>
-
-</body>
-</html>
-
 # Running a Jupyter notebook from a remote server
 
 For my researches, I often work with remote servers to run deep learning models, heavy CPU computations or files transfers on remote machines much more powerful than my modest laptop 🦾.
