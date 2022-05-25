@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="style.css">
 
+<pre><code>This is a code block.
+</code></pre>
+
 <div class="console draggable">
   <div class="menubar">
     <div class="close button"></div>
