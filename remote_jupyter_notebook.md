@@ -1,19 +1,21 @@
-<link rel="stylesheet" href="style.css">
+<link href="scripts/highlightjs/styles/github-gist.css" rel="stylesheet" />
+<script src="scripts/highlightjs/highlight.pack.js"></script>
 
-<pre><code>This is a code block.
-</code></pre>
+<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">-->
+<!--<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>-->
 
-<div class="console draggable">
-  <div class="menubar">
-    <div class="close button"></div>
-    <div class="max button"></div>
-    <div class="min button"></div>
-    <div class="task">~/user/bin/run code</div>
-  </div>
-  <div class="body">
-    <span style="color:green">user</span>:<span style="color:blue">~</span>$ _
-  </div>
-</div>
+<script>
+function highlightCode() {
+    var pres = document.querySelectorAll("pre>code");
+    for (var i = 0; i < pres.length; i++) {
+        hljs.highlightBlock(pres[i]);
+    }
+}
+highlightCode();
+</script>
+
+</body>
+</html>
 
 # Running a Jupyter notebook from a remote server
 
