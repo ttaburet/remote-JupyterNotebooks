@@ -43,6 +43,10 @@ In the same logic, the respective users of these two machines will be called `lo
 I strongly advise you to set up ssh authentication via keygen to avoid typing your password every 30 seconds. Here is a [web page](https://gitlab.univ-lr.fr/ttaburet/tips-and-tricks/-/blob/main/ssh.m
 d) to help you do this (in less than a minute) :
 
+<pre><code>This is a code block.
+</code></pre>
+
+
 ### 1. Running Jupyter Notebook from remote machine
 
 Firsts things first, log-in to your remote machine the usual way you do :
