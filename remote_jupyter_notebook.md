@@ -1,8 +1,5 @@
-<link href="scripts/highlightjs/styles/github-gist.css" rel="stylesheet" />
-<script src="scripts/highlightjs/highlight.pack.js"></script>
-
-<!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">-->
-<!--<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>-->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
 
 <script>
 function highlightCode() {
